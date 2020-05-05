@@ -47,7 +47,7 @@ This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bun
 ## Authors
 
 List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor. 
-- Joseph Lumbahe - https://www.linkedin.com/in/joshlmb/
+- Joseph Lumbahe [https://www.linkedin.com/in/joshlmb/]
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
