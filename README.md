@@ -48,7 +48,7 @@ This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bun
 
 List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor. 
 - Brandon Samson
-
+-Junior
 - Labious Phetoane
 
 ## Contributing
