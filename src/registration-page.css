@@ -1,43 +1,31 @@
-.wrapper {
-    background-color: gold;
-    padding-top: 12px;
-    padding-bottom: 12px;
+.page-wrapper {
+    background-color: goldenrod;
+    padding: 0 0 1px 0;
 }
-#navbar {
-    background-color: rgb(175,130,17);
-}
-#names {
-    padding: 0px -2px 10px 0px;
-}
-
 #firstName  {
     padding: 0px 12px 10px 0px;
 }
-
-#lastName  {
+#lastName,#phone,#email,#dropdown1,#password1,#password2,#names {
     padding: 0px 0px 10px 0px;
-}
-
-#email {
-    padding: 0px 0px 10px 0px;
-}
-#phone {
-    padding: 0px 0px 10px 0px;
-}
-#dropdown1 {
-    padding: 0px 0px 10px 0px;
-    
 }
 #dropdown {
     background-color: white;
 }
-#password1 {
-    padding: 0px 0px 10px 0px;
-}
-#password2 {
-    padding: 0px 0px 10px 0px;
-}
 #footer {
     padding-bottom: 12px;
 }
-
+.reg-wrapper {
+    color: white;
+    margin-right: 200px;
+    margin-left: 200px;    
+}
+.form-wrapper {
+    margin-right: 200px;
+    margin-left: 200px; 
+}
+#dropdown {
+    color:gray;
+}
+#form-container {
+    padding-bottom: 10px;
+}

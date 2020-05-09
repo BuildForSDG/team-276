@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href= "./registration-page.css">
-    
 </head>
+
 <body>
   <header>
     <nav class="navbar navbar-dark bg-dark" id="navbar">
@@ -16,63 +16,72 @@
     </nav>
   </header>
 
-  <section class="wrapper">
-    <div class="d-flex px-5 flex-row justify-content-around my-3 flex-wrap">
-		  <div class="d-flex flex-column flex-fill p-4 mx-2 my-2 my-lg-1 text-center">
-			  <h4>registration-page</h4>
-			  <p>Please sign up to access your account</p>
+  <section class="page-wrapper">
+    <section class="reg-wrapper">
+      <div class="reg-container d-flex flex-row justify-content-around flex-wrap" id="reg-container">
+		    <div class="d-flex flex-column flex-fill p-4 mx-2 my-2 my-lg-1 text-center">
+			    <h4>registration-page</h4>
+			    <p>Please sign up to access your account</p>
+        </div>
       </div>
-    </div>
+  </section>
 
-    <div class="d-flex px-5 flex-row justify-content-around my-3 flex-wrap">
-      <form>          
-        <div class="row" id="names">
-           <div class="col" id="firstName"> 
-              <input type="text" class="form-control" placeholder="First name" required> 
+  <section >
+      <div class="form-container d-flex flex-row justify-content-around my-3 flex-wrap" id="form-container">
+      <div class="form-wrapper d-flex flex-row justify-content-around my-3 flex-wrap">    
+          <form>          
+            <div class="row" id="names">
+              <div class="col" id="firstName"> 
+                  <input type="text" class="form-control input-lg" placeholder="First name" required> 
+                </div>
+                <div class="col" id="lastName"> 
+                  <input type="text" class="form-control" placeholder="Last name" required>
+                </div>
             </div>
-            <div class="col" id="lastName"> 
-              <input type="text" class="form-control" placeholder="Last name">
+
+            <div class="row" id="email">
+                <input type="text" class="form-control" placeholder="Email" required>
             </div>
+
+            <div class="row" id="phone">
+              <input type="text" class="form-control" placeholder="Phone Number" required>
+            </div>
+
+            <div class="row" id="dropdown1" >
+              <div class="dropdown" id="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Select Role
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Farmer</a>
+                  <a class="dropdown-item" href="#">Retail</a>
+                  <a class="dropdown-item" href="#">Driver</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row" id="password1">
+              <input type="text" class="form-control" placeholder="Password" required>
+            </div>
+
+            <div class="row" id="password2">
+              <input type="text" class="form-control" placeholder="Repeat Password" required>
+            </div>
+
+            <div class="row" id="btn-row">
+              <button type="submit" class="btn btn-primary" id="btn-sub">
+                Submit
+                </button>
+            </div>
+          </form>
         </div>
-
-        <div class="row" id="email">
-            <input type="text" class="form-control" placeholder="Email">
-        </div>
-
-        <div class="row" id="phone">
-          <input type="text" class="form-control" placeholder="Phone Number">
-        </div>
-
-        <div class="row" id="dropdown1" >
-          <div class="dropdown" id="dropdown">
-            <button class="btn btn-default dropdown-toggle" type="button" id="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Select Role
-                 <!-- <span class="caret"></span> -->
-            </button>
-         <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <a class="dropdown-item" href="#">Farmer</a>
-            <a class="dropdown-item" href="#">Retail</a>
-            <a class="dropdown-item" href="#">Driver</a>
-         </div>
-         </div>
-        </div>
-
-        <div class="row" id="password1">
-          <input type="text" class="form-control" placeholder="Password">
-        </div>
-
-        <div class="row" id="password2">
-          <input type="text" class="form-control" placeholder="Repeat Password">
-        </div>
-
-      </form>
-
-    </div>
+      </div>
+  </section>
   </section>
 
   <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
     <div class="container text-center">
-      <small>Copyright &copy; Team-276</small>
+      <small> &copy; Team-276</small>
     </div>
   </footer>
 
