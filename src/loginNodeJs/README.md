@@ -1,4 +1,4 @@
-**Authentication system BACKEND for user to login, register and have access control.**
+**Authentication system BACKEND for user to login, register and have access control.
 
 
 Login and Registration Application using Node.js and the Express framework to build the registration form with validation, which persists its data to a MongoDB database.
@@ -11,7 +11,7 @@ Login and Registration Application using Node.js and the Express framework to bu
 - MongoDB database
 - Connected to Express server
 
-**System requirements**
+**System requirements
 - Express
 - Mongoose
 - NodeJS
@@ -22,7 +22,7 @@ Login and Registration Application using Node.js and the Express framework to bu
 - JWT
 
 **Check that Everything is Installed Correctly
-To check that Node and npm are installed correctly, open your terminal and type:**
+To check that Node and npm are installed correctly, open your terminal and type:
 
 - node -v
 
