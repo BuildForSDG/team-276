@@ -29,4 +29,4 @@ app.use('/', viewRoutes);
 
 app.use(express.static(`${__dirname}/public`));
 
-app.listen(process.env.port || 4000);
+app.listen(process.env.port || 3000);
