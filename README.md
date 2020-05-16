@@ -46,8 +46,8 @@ This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bun
 
 List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor. 
 - Brandon Samson
--Junior
--Jude 
+- Junior
+- Jude 
 - Labious Phetoane
 - Joseph Lumbahe [https://www.linkedin.com/in/joshlmb/]
 
@@ -72,13 +72,13 @@ MIT
 ## Authentication system BACKEND for user to login, register and have access control.
 
 Login and Registration Application using Node.js and the Express framework to build the registration form with validation, which persists its data to a MongoDB database.
-  - Validation with @hapi/joi
-  - Password reinforced with salt and hash
-  - bcrypt to decrypt them
-  - Added a jsonwebtoken to the auth
-  - Private routes with JWT
-  - MongoDB database
-  - Connected to Express server
+- Validation with @hapi/joi
+- Password reinforced with salt and hash
+- bcrypt to decrypt them
+- Added a jsonwebtoken to the auth
+- Private routes with JWT
+- MongoDB database
+- Connected to Express server
 
 **System requirements**
 - Express
