@@ -1,31 +1,39 @@
 .page-wrapper {
-    background-color: goldenrod;
-    padding: 0 0 1px 0;
+	background-color: goldenrod;
+	padding: 0 0 1px 0;
 }
+
 #firstName  {
-    padding: 0px 12px 10px 0px;
+	padding: 0px 12px 10px 0px;
 }
+
 #lastName,#phone,#email,#dropdown1,#password1,#password2,#names {
-    padding: 0px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
 }
+
 #dropdown {
-    background-color: white;
+	background-color: white;
 }
+
 #footer {
-    padding-bottom: 12px;
+	padding-bottom: 12px;
 }
+
 .reg-wrapper {
-    color: white;
-    margin-right: 200px;
-    margin-left: 200px;    
+	color: white;
+	margin-right: 200px;
+	margin-left: 200px;    
 }
+
 .form-wrapper {
-    margin-right: 200px;
-    margin-left: 200px; 
+	margin-right: 200px;
+	margin-left: 200px; 
 }
+
 #dropdown {
-    color:gray;
+	color:gray;
 }
+
 #form-container {
-    padding-bottom: 10px;
+	padding-bottom: 10px;
 }
