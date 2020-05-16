@@ -10,7 +10,7 @@ Once this repo has been setup on Codacy by the TTL, replace the above badge with
 
 This is a simple JavaScript starter repo template for setting up your project. The setup contains
 
--  Jest: For runnung tests. We strongly recommend that JavaScript projects use Jest
+-   Jest: For runnung tests. We strongly recommend that JavaScript projects use Jest
 
 - Eslint & Prettier: For formatting code to match ESlint AirBnB coding standard. You might need to install the ESlint and Prettier plugins for your code editor to make the most of these utilities
 
@@ -80,7 +80,7 @@ Login and Registration Application using Node.js and the Express framework to bu
 - MongoDB database
 - Connected to Express server
 
-**System requirements**
+## System requirements
 - Express
 - Mongoose
 - NodeJS
@@ -90,7 +90,7 @@ Login and Registration Application using Node.js and the Express framework to bu
 - bcrypt
 - JWT
 
-**Check that Everything is Installed Correctly**
+## Check that Everything is Installed Correctly
 To check that Node and npm are installed correctly, open your terminal and type:
 
 - node -v
