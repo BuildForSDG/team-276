@@ -1,0 +1,2 @@
+web: yarn develop
+heroku ps:scale web=1
