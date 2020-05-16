@@ -11,8 +11,7 @@ Once this repo has been setup on Codacy by the TTL, replace the above badge with
 This is a simple JavaScript starter repo template for setting up your project. The setup contains
 
 -   Jest: For runnung tests. We strongly recommend that JavaScript projects use Jest
-
-- Eslint & Prettier: For formatting code to match ESlint AirBnB coding standard. You might need to install the ESlint and Prettier plugins for your code editor to make the most of these utilities
+-   Eslint & Prettier: For formatting code to match ESlint AirBnB coding standard. You might need to install the ESlint and Prettier plugins for your code editor to make the most of these utilities
 
 ## Why
 
@@ -35,21 +34,21 @@ This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bun
 
 ### Hints
 
-- Run `npm install` or `yarn install` to get started. We'll assume you are using Yarn.
-- Install additional dependencies: `yarn add <dependency-name> [-D]`
-- Run tests: `yarn test`
-- Run tests with test coverage info: `yarn test:cover`
-- Check the codebase for proper syntax and formatting compliance: `yarn lint`
-- Run your app in local dev mode: `yarn start`. This puts the bundled app in a `dist` folder, set up a local web server at localhost:1234, and continues to watch for your code changes which it syncs with the local server. This means if you loaded the app in a browser, it will auto-refresh as you code along. Feel free to use whatever bundler best meets your needs. Parcel was only added as a sample and for those looking for a simple but effective solution to the hassle of bundlers. 
+-   Run `npm install` or `yarn install` to get started. We'll assume you are using Yarn.
+-   Install additional dependencies: `yarn add <dependency-name> [-D]`
+-   Run tests: `yarn test`
+-   Run tests with test coverage info: `yarn test:cover`
+-   Check the codebase for proper syntax and formatting compliance: `yarn lint`
+-   Run your app in local dev mode: `yarn start`. This puts the bundled app in a `dist` folder, set up a local web server at localhost:1234, and continues to watch for your code changes which it syncs with the local server. This means if you loaded the app in a browser, it will auto-refresh as you code along. Feel free to use whatever bundler best meets your needs. Parcel was only added as a sample and for those looking for a simple but effective solution to the hassle of bundlers. 
 
 ## Authors
 
 List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project, including the TTL and mentor. 
-- Brandon Samson
-- Junior
-- Jude 
-- Labious Phetoane
-- Joseph Lumbahe `[https://www.linkedin.com/in/joshlmb/]`
+-   Brandon Samson
+-   Junior
+-   Jude 
+-   Labious Phetoane
+-   Joseph Lumbahe `[https://www.linkedin.com/in/joshlmb/]`
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
@@ -72,29 +71,29 @@ MIT
 ## Authentication system BACKEND for user to login, register and have access control
 
 Login and Registration Application using Node.js and the Express framework to build the registration form with validation, which persists its data to a MongoDB database.
-- Validation with @hapi/joi
-- Password reinforced with salt and hash
-- bcrypt to decrypt them
-- Added a jsonwebtoken to the auth
-- Private routes with JWT
-- MongoDB database
-- Connected to Express server
+-   Validation with @hapi/joi
+-   Password reinforced with salt and hash
+-   bcrypt to decrypt them
+-   Added a jsonwebtoken to the auth
+-   Private routes with JWT
+-   MongoDB database
+-   Connected to Express server
 
 ## System requirements
-- Express
-- Mongoose
-- NodeJS
-- Nodemon
-- dotenv
-- joi
-- bcrypt
-- JWT
+-   Express
+-   Mongoose
+-   NodeJS
+-   Nodemon
+-   dotenv
+-   joi
+-   bcrypt
+-   JWT
 
 ## Check that Everything is Installed Correctly
 To check that Node and npm are installed correctly, open your terminal and type:
 
-- node -v
+-   node -v
 
 followed by:
 
-- npm -v
+-   npm -v
