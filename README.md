@@ -51,6 +51,8 @@ List the team behind this project. Their names linked to their Github, LinkedIn,
 -Junior
 -Jude 
 - Labious Phetoane
+- Joseph Lumbahe [https://www.linkedin.com/in/joshlmb/]
+
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
 First, you can send a mail to buildforsdg@andela.com to indicate your interest, why you'd like to support and what forms of support you can bring to the table, but here are areas we think we'd need the most help in this project :
@@ -65,6 +67,7 @@ Do you want to thank someone explicitly?
 Did someone’s blog post spark off a wonderful idea or give you a solution to nagging problem?
 
 It's powerful to always give credit.
+
 
 ## LICENSE
 MIT
