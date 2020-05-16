@@ -10,7 +10,7 @@ Once this repo has been setup on Codacy by the TTL, replace the above badge with
 
 This is a simple JavaScript starter repo template for setting up your project. The setup contains
 
-- Jest: For runnung tests. We strongly recommend that JavaScript projects use Jest
+-  Jest: For runnung tests. We strongly recommend that JavaScript projects use Jest
 
 - Eslint & Prettier: For formatting code to match ESlint AirBnB coding standard. You might need to install the ESlint and Prettier plugins for your code editor to make the most of these utilities
 
@@ -49,7 +49,7 @@ List the team behind this project. Their names linked to their Github, LinkedIn,
 - Junior
 - Jude 
 - Labious Phetoane
-- Joseph Lumbahe [https://www.linkedin.com/in/joshlmb/]
+- Joseph Lumbahe `[https://www.linkedin.com/in/joshlmb/]`
 
 ## Contributing
 If this project sounds interesting to you and you'd like to contribute, thank you!
@@ -69,7 +69,7 @@ It's powerful to always give credit.
 ## LICENSE
 MIT
 
-## Authentication system BACKEND for user to login, register and have access control.
+## Authentication system BACKEND for user to login, register and have access control
 
 Login and Registration Application using Node.js and the Express framework to build the registration form with validation, which persists its data to a MongoDB database.
 - Validation with @hapi/joi
