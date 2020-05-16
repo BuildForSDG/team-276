@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const http = require('http');
 const database = require('./config/database');
 
 const app = express();
@@ -13,6 +14,7 @@ mongoose.set('useCreateIndex', true);
 mongoose.set('useUnifiedTopology', true);
 mongoose.connect(database.database);
 const db = mongoose.connection;
+const port = process.env.PORT || 3000;
 
 db.once('open', () => {
   console.log('Connected to database');
@@ -29,4 +31,6 @@ app.use('/', viewRoutes);
 
 app.use(express.static(`${__dirname}/public`));
 
-app.listen(process.env.port || 3000);
+http.Server(app).listen(port, () => {
+  console.log(`HTTP server listening on port ${port}`);
+});
