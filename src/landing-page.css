@@ -1,0 +1,13 @@
+body{
+    background: url('https://i.postimg.cc/yYcW25Rw/JPEG-5.jpg');
+}
+ .jumbotron {
+     background: none;
+ }
+ .jumbotron h1 {
+     color: white;
+ }
+ .jumbotron p {
+     color: white;
+
+ }
