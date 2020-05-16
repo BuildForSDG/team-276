@@ -2,7 +2,6 @@ barebones setup for JavaScript / Node projects replace this with a one-liner phr
 
 [![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
 
-
 ## About
 
 What is this project about. Ok to enrich here or the section above it with an image. 
@@ -22,7 +21,6 @@ Talk about what problem this solves, what SDG(s) and SGD targets it addresses an
 ## Usage
  How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
 
-
 ## Setup
 
 Install `npm` or `yarn` if you dont have any of them already installed. We recommend Yarn though.
@@ -35,7 +33,7 @@ All tests should be written in the `__tests__' folder. There's a sample in there
 
 This starter uses [Parcel](https://parceljs.org/getting_started.html) as the bundler. It is much simpler that WebPack and the others
 
-#### Hints
+### Hints
 
 - Run `npm install` or `yarn install` to get started. We'll assume you are using Yarn.
 - Install additional dependencies: `yarn add <dependency-name> [-D]`
@@ -68,23 +66,19 @@ Did someone’s blog post spark off a wonderful idea or give you a solution to n
 
 It's powerful to always give credit.
 
-
 ## LICENSE
 MIT
 
-
-**Authentication system BACKEND for user to login, register and have access control.**
-
+## Authentication system BACKEND for user to login, register and have access control.
 
 Login and Registration Application using Node.js and the Express framework to build the registration form with validation, which persists its data to a MongoDB database.
-
-- Validation with @hapi/joi
-- Password reinforced with salt and hash
-- bcrypt to decrypt them
-- Added a jsonwebtoken to the auth
-- Private routes with JWT
-- MongoDB database
-- Connected to Express server
+  - Validation with @hapi/joi
+  - Password reinforced with salt and hash
+  - bcrypt to decrypt them
+  - Added a jsonwebtoken to the auth
+  - Private routes with JWT
+  - MongoDB database
+  - Connected to Express server
 
 **System requirements**
 - Express
@@ -104,9 +98,3 @@ To check that Node and npm are installed correctly, open your terminal and type:
 followed by:
 
 - npm -v
-
-
-
-
-
-
