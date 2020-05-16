@@ -16,12 +16,8 @@ mongoose.connect(database.database);
 const db = mongoose.connection;
 const port = process.env.PORT || 3000;
 
-db.once('open', () => {
-  console.log('Connected to database');
-});
-db.on('error', (err) => {
-  console.log(err);
-});
+db.once('open', () => {});
+db.on('error', () => {});
 
 const authRoute = require('./routes/auth');
 const viewRoutes = require('./view-routes');
@@ -31,6 +27,4 @@ app.use('/', viewRoutes);
 
 app.use(express.static(`${__dirname}/public`));
 
-http.Server(app).listen(port, () => {
-  console.log(`HTTP server listening on port ${port}`);
-});
+http.Server(app).listen(port, () => {});

@@ -10,7 +10,7 @@ const { registerValidation, loginValidation } = require('../config/validation');
 router.post('/register', async (req, res) => {
   // I AM VALIDATING THE DATA BEFORE WE MAKE A USER
   // const {error} = schema.validate(req.body);
-  const { error } = registerValidation(req.body);
+  const error = registerValidation(req.body);
 
   if (error) return res.status(400).send(error.details[0].message);
 
