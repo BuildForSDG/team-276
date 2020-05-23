@@ -1,13 +1,19 @@
-body{
-    background: url('https://i.postimg.cc/yYcW25Rw/JPEG-5.jpg');
-}
- .jumbotron {
-     background: none;
- }
- .jumbotron h1 {
-     color: white;
- }
- .jumbotron p {
-     color: white;
+@import url('https //fonts.googleapis.com/css family=montserrat');
 
- }
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 220px;
+}
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: Coronet script;
+}
